@@ -4,7 +4,10 @@
 // like so
 
 class HotDog {
-    constructor() {}
+    ketchup: boolean;
+    mustard: boolean;
+    pickels: boolean;
+    constructor(string: string) {}
 
     addKetchup() {
         this.ketchup = true;
