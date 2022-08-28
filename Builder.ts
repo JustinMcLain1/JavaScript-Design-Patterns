@@ -38,6 +38,7 @@ myLunch
 
 
 
+/*
 // Using the Builder pattern makes sense only when your products
 // are quite complex and require extensive configuration. The
 // following two products are related, although they don't have
@@ -184,3 +185,5 @@ class Application is
         // object since the director isn't aware of and not
         // dependent on concrete builders and products.
         Manual manual = builder.getProduct()
+
+        */
