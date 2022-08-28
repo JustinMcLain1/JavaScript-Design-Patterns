@@ -1,6 +1,7 @@
 
 class IOSButton{}
 class AndroidButton{}
+let os;
 //without a factory
 const button1 = os === 'ios' ? new IOSButton() : new AndroidButton();
 
@@ -21,5 +22,5 @@ class ButtonFactory {
 // which button should be rendered
 
 const factory = new ButtonFactory();
-const btn1 = factory.createButton(os);
-const btn2 = factory.createButton(os);
+const btn1 = factory.createButton("ios");
+const btn2 = factory.createButton("android");
